@@ -1,0 +1,36 @@
+.Button {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 25%;
+  padding: 2%;
+  background: #43d1af;
+  border-bottom: 2px solid #30c29e;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  color: #fff;
+  margin: 0 auto;
+  display: block;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.Button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.Success {
+  color: white;
+}
+
+.Danger {
+  color: #944317;
+}
+
+.center {
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
