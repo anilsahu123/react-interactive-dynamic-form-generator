@@ -1,6 +1,6 @@
 {
   "name": "react-interactive-dynamic-form-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It will generate the interactive form dynamically with validation. all it will take is json model as a input and will give the form output",
   "author": "shekharramola",
   "license": "GNU General Public License v3.0",
