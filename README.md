@@ -1,6 +1,6 @@
 # react-interactive-dynamic-form-generator
 
-> It will generate the interactive form dynamically with validation. all it will take is json model as a input and will give the form output
+> It will generate the form dynamically with validation. all it will take is json model as a input. validation object in the configuration is optional. it support almost all the input types. also apart from required field validation, it also has special validation for email(type="email"), pan number(type="pan"), only number(type="number"), minlength, maxlength etc. you can also pass your own regular expression as rejex property inside your validation object.
 
 [![NPM](https://img.shields.io/npm/v/react-interactive-dynamic-form-generator.svg)](https://www.npmjs.com/package/react-interactive-dynamic-form-generator) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -13,15 +13,18 @@ npm install --save react-interactive-dynamic-form-generator
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import MyComponent from 'react-interactive-dynamic-form-generator'
+import DynamicFormGenerator from "react-interactive-dynamic-form-generator";
 
 class Example extends Component {
-  render () {
+  render() {
     return (
-      <MyComponent />
-    )
+      <DynamicFormGenerator
+        formFields={this.state.formFields}
+        onFormSubmit={form => this.formResult(form)}
+      />
+    );
   }
 }
 ```
