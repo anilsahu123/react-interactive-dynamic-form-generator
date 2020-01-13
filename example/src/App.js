@@ -205,6 +205,9 @@ export default class App extends Component {
       }
     }
   };
+  formResult = form => {
+  console.log(form);
+  }
   render() {
     return (
       <div>
