@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "It will generate the interactive form dynamically with validation. all it will take is json model as a input and will give the form output",
   "author": "shekharramola",
+  "Keywords":"react",
   "license": "GNU General Public License v3.0",
   "repository": "shekharramola/react-interactive-dynamic-form-generator",
   "main": "dist/index.js",
