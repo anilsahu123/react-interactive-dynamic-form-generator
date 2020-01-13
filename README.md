@@ -247,5 +247,3 @@ To support custom styling so that user can pass their own style.
 
 GNU General Public License v3.0 © [shekharramola](https://github.com/shekharramola)
 
-## keywords
-[react], [react-dynamic-form], [react-form-validation]
