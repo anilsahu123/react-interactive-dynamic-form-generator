@@ -18,7 +18,7 @@ import React, { Component } from "react";
 import DynamicFormGenerator from "react-interactive-dynamic-form-generator";
 
 class Example extends Component {
-   state = {
+  state = {
     formFields: {
       name: {
         elementType: "input",
@@ -219,6 +219,9 @@ class Example extends Component {
         valid: false
       }
     }
+  };
+  formResult = form => {
+    console.log(form);
   };
   render() {
     return (
